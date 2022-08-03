@@ -2,7 +2,7 @@ source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "2.7.4"
-gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1', '>= 3.1.18'
 gem "active_model_serializers", "~> 0.10.12"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
